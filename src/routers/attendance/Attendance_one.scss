@@ -1,0 +1,26 @@
+.card_list{
+    flex-wrap: wrap;
+}
+.Attendance_one{
+    width: 80vw;
+    margin-left: 15px;
+}
+.Attendance_one__info__left__list{
+    &__title{
+        color: #000;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    &__dec{
+        margin-bottom: 5px;
+        color: #00072D;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+}

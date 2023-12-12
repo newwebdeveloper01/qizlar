@@ -1,0 +1,120 @@
+.hover:hover{
+    background-color:#fff;
+    color:#2f49d1;  
+    font-size: 30.629px !important;
+    transition: 0.5s;
+    border-radius:10px;
+    padding: 5px;
+
+
+}
+
+
+
+
+
+.header{
+    
+    position: fixed;
+    max-width: 253px !important;
+    height: 100%;
+    left: 0;
+    flex-shrink: 0;
+    background-color: #2f49d1;
+    margin-right: 300px;
+    &__nav {
+        display: flex;
+        border-bottom: 2px solid #fff;
+        & > h1 {
+            color: #fff;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+            font-family: Inter;
+            font-size: 20.629px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 29.224px; /* 141.667% */
+            letter-spacing: 0.86px;
+        }
+
+        &__logo {
+            background-color: #315996;
+            border-radius: 50%;
+            padding: 5px;
+            &__contact {
+                color: #fff;
+
+                font-size: 30.629px;
+            }
+        }
+        &__menu {
+            position: absolute;
+            left: 150px;
+            top: 30px;
+            color: #fff;
+            font-size: 30.629px;
+        }
+    }
+    &__menu {
+        
+       
+        & > a{
+            color: #fff;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+    
+            /* Body */
+            font-family: Inter ,sans-serif;
+            text-decoration: none;
+            font-size: 14px !important;
+            font-style: normal;
+            font-weight: 500 !important;
+            line-height: 34px; /* 242.857% */
+        }
+        
+    }
+}
+
+.navbar{
+    position: relative;
+    transition: all 1.5s ease-out;
+
+}
+.menu{
+    // transition: all 1.5s ease-out;
+
+
+    .header__nav{
+        display: none !important;
+    transition: all 1.5s ease-out;
+
+    }
+    .header__menu{ 
+        margin-top: 100px;
+        transition: all 1.5s ease-out;
+
+
+    &  p {
+        transition: display 1.5s ease-out;
+        display: none !important;
+
+
+
+    }
+}
+    .header__nav__menu{
+        left: 10px !important;
+    }
+    .every_body{
+        margin-left: 0% !important;
+      }
+
+    .container{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        --bs-gutter-x: 0rem !important;
+    }
+
+}
